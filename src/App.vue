@@ -1,11 +1,15 @@
-<script setup></script>
+<script setup>
+import ListCharacter from '../components/ListCharacter.vue' // ⬅️ 1. Importa el componente
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="app">
+    <h1>Listado de Personajes de Rick and Morty</h1>
+    <ListCharacter /> </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#app {
+  text-align: center;
+}
+</style>
